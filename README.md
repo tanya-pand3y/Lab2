@@ -4,6 +4,8 @@ The main topic of this first lab activity is branching and merging in git.
 
 ## Resources and Acknowledgements
 
+## Change from task_1
+
 https://www.atlassian.com/git/tutorials/using-branches contains an excellent, detailed
 walkthrough of the steps we will be going through in the lab. We encourage you to use
 it as a reference as needed. The short video (about 4 minutes) is well worth a quick view
@@ -30,13 +32,22 @@ If you miss the lab and work on this after, you should use this URL though.
 
 # TASK 1: Your first branch
 
+<<<<<<< task_3
 - [X] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
+=======
+- [x] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
+>>>>>>> main
   - IntelliJ: `Git -> New branch...`
   - Terminal: `git checkout -b task_1`
   - After, you can check `git status` or the Log tab of the Git tool window in IntelliJ to see
   that you are now on the `task_1` branch.
+<<<<<<< task_3
 - [X] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
 - [X] Complete the TASK 1 TODO and commit your changes to this file (checking off the
+=======
+- [x] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
+- [ ] Complete the TASK 1 TODO and commit your changes to this file (checking off the
+>>>>>>> main
 completed items so far) and `DataTypes.java` (remove the word TODO and your bug fix).
   - talk to those around you or your TA, then see the hints at the bottom of the readme if you get stuck.
 - [X] Now, we'll merge the `task_1` branch back into `main`. When merging,
